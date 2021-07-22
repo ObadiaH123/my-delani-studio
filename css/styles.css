@@ -1,0 +1,48 @@
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+/* this is styles for the first page */
+    .section1{
+        background-image: url('../images/backgrounds/h_img.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        padding-top:17%; 
+        font-family: 'Gabriela', serif;
+        
+    }  
+    .section1 h1{
+        padding: 2px;
+        margin: 5px;
+    }
+    .section1 p{
+        padding: 2px;
+    }
+
+    #mouse-click{
+        padding-top : 22px;
+        margin-top: 10%;
+        padding-bottom: 30px; 
+    
+    }
+    #mouse-click {
+        background-color: #f5f5f5;
+    }
+    
+    @keyframes bounce {
+        0%, 30%, 50%, 70%, 100% {
+            transform: translateY(0);
+            }
+            50% {
+            transform: translateY(-55px);
+            }
+            70% {
+            transform: translateY(-45px);
+            }
+    }
