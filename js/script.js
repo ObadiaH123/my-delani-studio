@@ -93,7 +93,7 @@ function ValidateEmail(email) {
       }
   
       if (!ValidateEmail($("input#email").val())) {
-        alert("Invalid email address!");
+        alert("enter the email address!");
       }
       else if (!$("textarea#message").val()){
         alert("Please enter your message or comment!");
