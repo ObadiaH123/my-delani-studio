@@ -46,3 +46,10 @@
             transform: translateY(-45px);
             }
     }
+/* styles for about us  section*/
+    .about{
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top:40px;
+        font-family: 'Copse', serif;
+    }
