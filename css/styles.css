@@ -181,43 +181,75 @@
         opacity:1;
     }
 /* contact us styles */  
-    .form-cont input {
-        width: 49%;
-        background: transparent;
-    }
-    .form-cont textarea {
-        margin-top: 10px;
-        width: 100%;
-        background: transparent;
-    }
-    #contact {
-        padding-top: 100px;
-        margin-bottom: 50px;
-        background-image: url('../images/backgrounds/c_image.jpg');
+    #contact-us{
+        background-image: url(/images/backgrounds/c_image.jpg);
         background-size: cover;
-        background-position: cover;
-        width: 90%;
-        max-width: 100%;
-        margin-top: 10%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    
     }
-    .form-cont {
-        text-align: center;
-        position: relative;
-        width: 700px;
-        max-width: 100%;
-        left: 50%;
-        transform: translate(-50%);
+  
+  
+  #contact-us .contact-box h2{
+        font-weight: bold;
+        text-align: center;  
+        color: white;
+        margin-top: 60px;
+  
     }
-    ::placeholder,
-    .con {
-        color: #fff;
+  
+  #contact-us .contact-box input{
+        width: 47%;
+        margin: 15px;
+        background: transparent;
+        border: 1px solid white;
+        margin-bottom: 25px;
     }
-    ::placeholder{
-        font-size: 20px;
-        font-family: 'Handlee', cursive;
-        font-weight: 600;
+  
+    form{
+        display: flex;
+    
     }
-
-    .footer {
+  
+  input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+  
+  textarea::placeholder{
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+  
+  
+  #message{
+        width: 96%;
+        margin-left: 40px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+  
+  .btn{
+        margin-bottom: 80px;
+        margin-left: 40px;
+        background-color: rgb(235, 146, 22);
+        border: 1px solid white;
+    }
+  
+  .btn:hover{
+        background-color: rgb(155, 115, 63);
+    }
+   
+  .footer {
         margin-top: 30px;
     }
