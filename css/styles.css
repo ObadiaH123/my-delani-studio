@@ -182,7 +182,7 @@
     }
 /* contact us styles */  
     #contact-us{
-        background-image: url(/images/backgrounds/c_image.jpg);
+        background-image: url(../img/backgrounds/c_image.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -191,45 +191,46 @@
         padding-bottom: 30px;
     
     }
-  
-  
-  #contact-us .contact-box h2{
+    
+    
+    #contact-us .contact-box h2{
         font-weight: bold;
         text-align: center;  
         color: white;
         margin-top: 60px;
-  
+    
     }
-  
-  #contact-us .contact-box input{
+    
+    #contact-us .contact-box input{
         width: 47%;
         margin: 15px;
         background: transparent;
         border: 1px solid white;
         margin-bottom: 25px;
     }
-  
+    
     form{
-        display: flex;
+        margin-top: 15px;
     
     }
-  
-  input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    
+    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: white;
         padding-left: 10px;
         font-weight: bold;
         font-size: 14px;
     }
-  
-  textarea::placeholder{
+    
+    textarea::placeholder{
         color: white;
         padding-left: 10px;
         font-weight: bold;
         font-size: 14px;
+    
     }
-  
-  
-  #message{
+    
+    
+    #message{
         width: 96%;
         margin-left: 40px;
         background: transparent;
@@ -237,19 +238,21 @@
         color: white;
         font-weight: bold;
         margin-bottom: 20px;
+    
+    
     }
-  
-  .btn{
+    
+    .btn{
         margin-bottom: 80px;
         margin-left: 40px;
         background-color: rgb(235, 146, 22);
         border: 1px solid white;
     }
-  
-  .btn:hover{
+    
+    .btn:hover{
         background-color: rgb(155, 115, 63);
     }
-   
-  .footer {
-        margin-top: 30px;
-    }
+    
+    .footer {
+            margin-top: 30px;
+        }
