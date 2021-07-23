@@ -143,12 +143,12 @@
     }
     
     #work3{
-        background-image: url(/images/portfolio/work3.jpg);
+        background-image: url('/images/portfolio/work3.jpg');
         background-size: cover;
     
     }
     #work3:hover{
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work3.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/portfolio/work3.jpg');
         background-size: cover;
     
     
