@@ -1,20 +1,20 @@
-$(function(){
+    $(function(){
 
-    $("#col-md-4-1").click(function(){
-        $(".hidden1").fadeToggle(2000) 
-        $(".img1").slideToggle(2000)       
-    });
+        $("#col-md-4-1").click(function(){
+            $(".hidden1").fadeToggle(2000) 
+            $(".img1").slideToggle(2000)       
+        });
 
-    $("#col-md-4-2").click(function(){
-        $(".hidden2").fadeToggle(1600)
-        $(".img2").slideToggle(1600)
+        $("#col-md-4-2").click(function(){
+            $(".hidden2").fadeToggle(1600)
+            $(".img2").slideToggle(1600)
+        });
+        
+        $("#col-md-4-3").click(function(){
+            $(".hidden3").fadeToggle(1600)
+            $(".img3").slideToggle(1600)
+        });
     });
-    
-    $("#col-md-4-3").click(function(){
-        $(".hidden3").fadeToggle(1600)
-        $(".img3").slideToggle(1600)
-    });
-});
 
 // portfolio js
     $(document).ready(function () {
@@ -109,6 +109,7 @@ $(function(){
         }
         );
     });
+    
 // validation of form
 function ValidateEmail(email) {
     var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
