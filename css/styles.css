@@ -16,7 +16,6 @@
         color: white;
         text-align: center;
         padding-top:17%; 
-        
     }  
     .section1 h1{
     padding: 2px;
@@ -25,12 +24,10 @@
     .section1 p{
     padding: 2px;
     }
-
     #mouse-click{
     padding-top : 22px;
     margin-top: 10%;
     padding-bottom: 30px; 
-    
     }
     #mouse-click {
     animation: bounce 3s infinite;
@@ -89,12 +86,12 @@
     .hidden3 {
         display: none;
     }
+
 /* portfolio styles */
     #portfolio h2{
         text-align: center;
         padding-top:40px;
     }
-    
     .portfolio{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -104,9 +101,7 @@
         margin-left:15%;
         margin-right: 15%; 
         margin-bottom: 40px;
-    
     }
-    
     .card{
         height: 27vh;
         width: 100%;
@@ -116,7 +111,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    
     }
     
     #work1{
@@ -126,48 +120,36 @@
     #work1:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/portfolio/work1.jpg);
         background-size: cover;
-    
     }
-    
     
     #work2{
         background-image: url(/images/portfolio/work2.jpg);
         background-size: cover;
-    
     }
     #work2:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work2.jpg);
         background-size: cover;
-    
-    
     }
     
     #work3{
         background-image: url('/images/portfolio/work3.jpg');
         background-size: cover;
-    
     }
     #work3:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/portfolio/work3.jpg');
         background-size: cover;
-    
-    
     }
-    
-    
+
     #work4{
         background-image: url('/images/portfolio/work4.jpg');
         background-size: cover;
-    
     }
     #work4:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/portfolio/work4.jpg');
         background-size: cover;
         opacity: 1;
-    
-    
     }
-    
+
     #work5{
         background-image: url('/images/portfolio/work5.jpg');
         background-size: cover;
@@ -176,44 +158,33 @@
     #work5:hover{
         background: linear-gradient(rgba(207, 199, 199, 0.8), rgba(216, 211, 211, 0.8)), url('/images/portfolio/work5.jpg');
         background-size: cover;
-        
-    
     }
     
     #work6{
         background-image: url(/images/portfolio/work6.jpg);
         background-size: cover;
-    
     }
     #work6:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work6.jpg);
         background-size: cover;
-    
-    
     }
         
     #work7{
         background-image: url(/images/portfolio/work7.jpg);
         background-size: cover;
-    
     }
     #work7:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work7.jpg);
         background-size: cover;
-    
-    
     }
         
     #work8{
         background-image: url(/images/portfolio/work8.jpg);
         background-size: cover;
-    
     }
     #work8:hover{
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work8.jpg);
         background-size: cover;
-    
-    
     }
         
     .col-md-3 .solid-border{
@@ -227,12 +198,10 @@
         text-transform: uppercase;
         display: none;
     }
-    
-    
     .col-md-3 .solid-border h1{
         font-size: 35px;
-    }
-  
+    } 
+   
 /* contact us styles */  
     #contact-us{
         background-image: url(/images/backgrounds/c_image.jpg);
@@ -243,16 +212,12 @@
         display: flex;
         justify-content: center;
     }
-    
-    
     #contact-us .contact-box h2{
         font-weight: bold;
         text-align: center;  
         color: white;
         margin-top: 60px;
-    
     }
-    
     #contact-us .contact-box input{
         width: 47%;
         margin: 15px;
@@ -260,27 +225,21 @@
         border: 1px solid white;
         margin-bottom: 25px;
     }
-    
     form{
         margin-top: 15px;
-    
     }
-    
-    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+*/
         color: white;
         padding-left: 10px;
         font-weight: bold;
         font-size: 14px;
     }
-    
     textarea::placeholder{
         color: white;
         padding-left: 10px;
         font-weight: bold;
         font-size: 14px;
-    
     }
-    
     #message{
         width: 96%;
         margin-left: 40px;
@@ -289,20 +248,17 @@
         color: white;
         font-weight: bold;
         margin-bottom: 20px;
-    
-    
     }
-    
     .btn{
         margin-bottom: 80px;
         margin-left: 40px;
         background-color: rgb(235, 146, 22);
         border: 1px solid white;
     }
-    
     .btn:hover{
         background-color: rgb(155, 115, 63);
     }
+
 /* social icons */
     .social img {
         border-radius: 50%;
@@ -314,7 +270,8 @@
         padding: 2px;
         background: aqua;
     }
-    
+
+/* footer styles */
     .footer {
             margin-top: 30px;
-        }
+    }
