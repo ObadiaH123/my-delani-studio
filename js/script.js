@@ -17,61 +17,97 @@ $(function(){
 });
 
 // portfolio js
-$("#col-1").hover(function() {
-    $("#text1").fadeTo("slow",1);
-    $("#photo1").fadeTo("slow",0.4);
-    },function() {
-      $("#text1").fadeTo("slow",0);
-      $("#photo1").fadeTo("slow",1);
+    $(document).ready(function () {
+        $("#work1").hover(
+        function () {
+            $("#work1 .solid-border").show();
+        },
+        function () {
+            $("#work1 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-2").hover(function() {
-    $("#text2").fadeTo("slow",1);
-    $("#photo2").fadeTo("slow",0.4);
-    },function() {
-      $("#text2").fadeTo("slow",0);
-      $("#photo2").fadeTo("slow",1);
+        
+    $(document).ready(function () {
+        $("#work2").hover(
+        function () {
+            $("#work2 .solid-border").show();
+        },
+        function () {
+            $("#work2 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-3").hover(function() {
-    $("#text3").fadeTo("slow",1);
-    $("#photo3").fadeTo("slow",0.4);;
-    },function() {
-      $("#text3").fadeTo("slow",0);
-      $("#photo3").fadeTo("slow",1);
+    
+    $(document).ready(function () {
+        $("#work3").hover(
+        function () {
+            $("#work3 .solid-border").show();
+        },
+        function () {
+            $("#work3 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-4").hover(function() {
-    $("#text4").fadeTo("slow",1);
-    $("#photo4").fadeTo("slow",0.4);
-    },function() {
-      $("#text4").fadeTo("slow",0);
-      $("#photo4").fadeTo("slow",1);
+    
+    $(document).ready(function () {
+        $("#work4").hover(
+        function () {
+            $("#work4 .solid-border").show();
+        },
+        function () {
+            $("#work4 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-5").hover(function() {
-    $("#text5").fadeTo("slow",1);
-    $("#photo5").fadeTo("slow",0.4);
-    },function() {
-      $("#text5").fadeTo("slow",0);
-      $("#photo5").fadeTo("slow",1);
+    
+    $(document).ready(function () {
+        $("#work5").hover(
+        function () {
+            $("#work5 .solid-border").show();
+        },
+        function () {
+            $("#work5 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-6").hover(function() {
-    $("#text6").fadeTo("slow",1);
-    $("#photo6").fadeTo("slow",0.4);
-    },function() {
-      $("#text6").fadeTo("slow",0);
-      $("#photo6").fadeTo("slow",1);
+    $(document).ready(function () {
+        $("#work6").hover(
+        function () {
+            $("#work6 .solid-border").show();
+        },
+        function () {
+            $("#work6 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-7").hover(function() {
-    $("#text7").fadeTo("slow",1);
-    $("#photo7").fadeTo("slow",0.4);
-    },function() {
-      $("#text7").fadeTo("slow",0);
-      $("#photo7").fadeTo("slow",1);
+    $(document).ready(function () {
+        $("#work7").hover(
+        function () {
+            $("#work7 .solid-border").show();
+        },
+        function () {
+            $("#work7 .solid-border").hide();
+        },
+        
+        );
     });
-  $("#col-8").hover(function() {
-    $("#text8").fadeTo("slow",1);
-    $("#photo8").fadeTo("slow",0.4);
-    },function() {
-      $("#text8").fadeTo("slow",0);
-      $("#photo8").fadeTo("slow",1);
+    $(document).ready(function () {
+        $("#work8").hover(
+        function () {
+            $("#work8 .solid-border").show();    
+    
+        },
+        function () {
+            $("#work8 .solid-border").hide();
+        }
+        );
     });
 // validation of form
 function ValidateEmail(email) {

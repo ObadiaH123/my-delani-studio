@@ -90,84 +90,149 @@
         display: none;
     }
 /* portfolio styles */
-    .portfolio h5{
+    #portfolio h2{
         text-align: center;
-        font-size: 30px;
+        padding-top:40px;
     }
+    
     .portfolio{
-        margin-left: 10px;
-        margin-right: 15px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 25px;
+        align-items: center;
+        margin-top: 20px;
+        margin-left:15%;
+        margin-right: 15%; 
+        margin-bottom: 40px;
+    
     }
-    textarea{
-        background: transparent;
-        color: #fff;
+    
+    .card{
+        height: 27vh;
+        width: 100%;
+        background-size: cover;
+        border-radius: 0% !important;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
     }
-    ::placeholder {  
-        color: white; 
-    } 
-    #text1{
-        display: none;
+    
+    #work1{
+        background-image: url(../img/portfolio/work4.jpg);
+        background-size: cover;
+    }
+    #work1:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work4.jpg);
+        background-size: cover;
+    
+    }
+    
+    
+    #work2{
+        background-image: url(../img/portfolio/work3.jpg);
+        background-size: cover;
+    
+    }
+    #work2:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work3.jpg);
+        background-size: cover;
+    
+    
+    }
+    
+    #work3{
+        background-image: url(../img/portfolio/work2.jpg);
+        background-size: cover;
+    
+    }
+    #work3:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portfolio/work2.jpg);
+        background-size: cover;
+    
+    
+    }
+    
+    
+    #work4{
+        background-image: url(../img/portfolio/work1.jpg);
+        background-size: cover;
+    
+    }
+    #work4:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work4.jpg);
+        background-size: cover;
+        opacity: 1;
+    
+    
+    }
+    
+    #work5{
+        background-image: url(/images/portfolio/work5.jpg);
+        background-size: cover;
+        opacity: 0.9;
+    }
+    #work5:hover{
+        background: linear-gradient(rgba(207, 199, 199, 0.8), rgba(216, 211, 211, 0.8)), url(/images/portfolio/work5.jpg);
+        background-size: cover;
+        
+    
+    }
+    
+    #work6{
+        background-image: url(/images/portfolio/work6.jpg);
+        background-size: cover;
+    
+    }
+    #work6:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work6.jpg);
+        background-size: cover;
+    
+    
+    }
+        
+    #work7{
+        background-image: url(/images/portfolio/work7.jpg);
+        background-size: cover;
+    
+    }
+    #work7:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work7.jpg);
+        background-size: cover;
+    
+    
+    }
+        
+    #work8{
+        background-image: url(/images/portfolio/work8.jpg);
+        background-size: cover;
+    
+    }
+    #work8:hover{
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/portfolio/work8.jpg);
+        background-size: cover;
+    
+    
+    }
+        
+    .col-md-3 .solid-border{
         position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
-        color: #fff;
-    }
-    #text2{
+        height: 80%;
+        width: 85%;
+        border: 3px solid white;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        text-transform: uppercase;
         display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
     }
-    #text3{
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
+    
+    
+    .col-md-3 .solid-border h1{
+        font-size: 35px;
     }
-    #text4{
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
-    }
-    #text5{
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
-    }
-    #text6{
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
-    }
-    #text7{
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
-    }
-    #text8{
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 10%;
-        height: 100;
-    }
-    .fade{
-        opacity: 0;
-    } 
-    .fade:hover{
-        opacity:1;
-    }
+  
 /* contact us styles */  
     #contact-us{
         background-image: url(/images/backgrounds/c_image.jpg);
@@ -177,8 +242,6 @@
         width: 95%;
         display: flex;
         justify-content: center;
-        /* padding-bottom: 30px; */
-    
     }
     
     
