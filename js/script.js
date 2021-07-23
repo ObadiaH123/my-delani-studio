@@ -146,15 +146,9 @@ function ValidateEmail(email) {
   
   });
   
-    //     // giving feedback to the customer
-    // $("button").click(function () {
-    //     var customer = document.getElementById('nameDetail').value;
-    //     alert(' Dear ' + ' esteemed ' + customer + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
-    //     // omonge.preventDefault();
-    // });
-    // //    reset my form button
-    // // $("button").on('click', function () {
-    // //     $('form').each(function () {
-    // //     this.reset();
-    // //     });
-    // // });
+//    reset my form button
+    $("button").on('click', function () {
+        $('form').each(function () {
+        this.reset();
+        });
+    });
