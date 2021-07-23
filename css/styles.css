@@ -217,7 +217,7 @@
     #contact-us{
         background-image: url(../images/backgrounds/c_image.jpg);
         background-size: cover;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
         width: 95%;
         display: flex;
@@ -247,7 +247,7 @@
     }
     textarea::placeholder{
         color: white;
-        padding-left: 130px;
+        padding-left: 10px;
         font-weight: bold;
         font-size: 14px;
     }
