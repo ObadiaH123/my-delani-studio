@@ -9,8 +9,12 @@ Delani-studio is a web application that illustrates projects we do like designin
 <p style="font-weight: 700;">By Kiprotich Bett Bernard</p>
 
 ## landing Page.
- This entails the Name of the Studio (DELANI STUDIO)
+    This entails the Name of the Studio (DELANI STUDIO)
  <image src= "images/screenshot/landing.png">
+
+## About us and Services page
+    The section contain description of what we work on, how we work and further illustrations of how we can cooperate/ partner with us. It also contain a section of Services showing clearly a background of a Laptop Picture. This sets your mind that in Delani studio we write lines of codes to implement our designed project.
+<image src= "images/screenshot/About Us.png">
 
 
 
