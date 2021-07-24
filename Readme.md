@@ -1,7 +1,8 @@
 # DELANI STUDIO
 ### This Website provide an overview of delani studio
 
-
+## Author
+<p style="font-weight: 700;">By Kiprotich Bett Bernard</p>
 
 
 
