@@ -1,9 +1,14 @@
 # DELANI STUDIO
 ### This Website provide an overview of delani studio
+
   ![Demo](https://drive.google.com/file/d/1RoTenbLfWiRTPDTtqTm07O8mTcIcevac/view)
 
 ## Author
 <p style="font-weight: 700;">By Kiprotich Bett Bernard</p>
+
+## landing Page.
+ This entails the Name of the Studio (DELANI STUDIO)
+ <image src= "images/screenshot/landing.png">
 
 
 
