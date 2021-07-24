@@ -1,5 +1,7 @@
 # DELANI STUDIO
-### This Website provide an overview of delani studio
+### DESCRIPTION
+This Website provide an overview of delani studio.
+Delani-studio is a web application that illustrates projects we do like designing, development and product management. It includes a portfolio of some of our projects, and a detailed description of what we do from inception to completion of the project. Further to this, the application is built to incoporate bootsrap styling and jQuery effects as an illustration of our proffeciency in the afformentioned fields.The application also includes a form that allows users to enter their names and emails incase they have feedback to us or inquiry.
 
   ![Demo](https://drive.google.com/file/d/1RoTenbLfWiRTPDTtqTm07O8mTcIcevac/view)
 
