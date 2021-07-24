@@ -14,6 +14,22 @@
 | User enters valid mail and email in the form   | Email: abc@gmail.com     Name: Ben | name and email valid            |
 | User enters text in the message text area      | Hello form submitted           | Thank you for submitting your form. |
 
+## Setup/Installation Requirements
+* Git <br>
+* Browser (Chrome or Firefox) <br>
+* Internet Connection <br>
+* A PC <br>
+* Text Editor(Visual Studio) <br>
+## known bugs
+There are known bugs at the moment
+## Technologies used <br>
+* HTML <br>
+* CSS <br>
+* Bootstrap <br>
+* Javascript <br>
+## contact details
+You can reach to me through this Email:kiprotichbernard780@gmail.com
+
 
 ### License
 
