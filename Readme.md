@@ -24,7 +24,7 @@ Brief Showcase of what we do and Portfolio Showing different projects done by th
 ## Contact Us
 It is a form which have 3 fields. Someone having a feedback, concerns, Issues and maybe he/she want to be hired in Delani Studio can fill the form and Delani studio shall get the message after hitting submit button.
 Footer also contains Social media icons and by tapping any icon, the link will take you to their specific social media page.
-<image src="images/screenshots/Form.png">
+<image src="images/screenshots/form.png">
 
 
 
