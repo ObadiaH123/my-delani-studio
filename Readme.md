@@ -17,6 +17,14 @@ The section contain description of what we work on, how we work and further illu
 Here is the Screenshot of the same:
 <image src= "images/screenshot/about.png">
 
+## What we do and Portfolio
+Brief Showcase of what we do and Portfolio Showing different projects done by the tean at Delani Studio.
+<image src="images/screenshot/portfolio.png">
+
+## Contact Us
+It is a form which have 3 fields. Someone having a feedback, concerns, Issues and maybe he/she want to be hired in Delani Studio can fill the form and Delani studio shall get the message after hitting submit button.
+Footer also contains Social media icons and by tapping any icon, the link will take you to their specific social media page.
+<image src="images/screenshots/Form.png">
 
 
 
