@@ -110,11 +110,11 @@
         justify-content: center;
     }
     
-    #work1{
+    #work4{
         background-image: url(../images/portfolio/work1.jpg);
         background-size: cover;
     }
-    #work1:hover{
+    #work4:hover{
         background: url(../images/portfolio/work1.jpg);
         background-color: black;
         background-size: cover;
@@ -137,17 +137,17 @@
         background-size: cover;
     }
     #work3:hover{
-        background: black;
-        opacity: 0.9;
+        background:white;
+        opacity: 0.5;
         background: url(../images/portfolio/work3.jpg);
         background-size: cover;
     }
 
-    #work4{
+    #work1{
         background-image: url(../images/portfolio/work4.jpg);
         background-size: cover;
     }
-    #work4:hover{
+    #work1:hover{
         background: url(../images/portfolio/work4.jpg);
         background-color: black;
         background-size: cover;
@@ -162,7 +162,7 @@
         background: url(../images/portfolio/work5.jpg);
         background-color: black;
         background-size: cover;
-        opacity: 0.9;
+        opacity: 0.5;
     }
     
     #work6{
@@ -173,7 +173,7 @@
         background: url(../images/portfolio/work6.jpg);
         background-color: black;
         background-size: cover;
-        opacity: 0.9;
+        opacity: 0.5;
     }
         
     #work7{
@@ -195,7 +195,7 @@
         background: url(../images/portfolio/work8.jpg);
         background-color: black;
         background-size: cover;
-        opacity: 0.9;
+        opacity: 0.6;
     }
         
     .col-md-3 .solid-border{
@@ -211,6 +211,7 @@
     }
     .col-md-3 .solid-border h1{
         font-size: 35px;
+        text-align: center;
     } 
    
 /* contact us styles */  
