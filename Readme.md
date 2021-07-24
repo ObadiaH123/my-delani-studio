@@ -1,6 +1,6 @@
 # DELANI STUDIO
 ### This Website provide an overview of delani studio
-  ### Here is the [![Live:Demo](https://drive.google.com/file/d/1RoTenbLfWiRTPDTtqTm07O8mTcIcevac/view)](https://drive.google.com/file/d/1RoTenbLfWiRTPDTtqTm07O8mTcIcevac/view) of the website
+  ![Demo](https://drive.google.com/file/d/1RoTenbLfWiRTPDTtqTm07O8mTcIcevac/view)
 
 ## Author
 <p style="font-weight: 700;">By Kiprotich Bett Bernard</p>
