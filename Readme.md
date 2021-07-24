@@ -15,7 +15,7 @@ This entails the Name of the Studio (DELANI STUDIO)
 ## About us and Services page
 The section contain description of what we work on, how we work and further illustrations of how we can cooperate/ partner with us. It also contain a section of Services showing clearly a background of a Laptop Picture. This sets your mind that in Delani studio we write lines of codes to implement our designed project.
 Here is the Screenshot of the same:
-<image src= "images/screenshot/About.png">
+<image src= "images/screenshot/about.png">
 
 
 
